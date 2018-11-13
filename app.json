@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/logs/logs",
+    "pages/personal/hdownload/hdownload",
+    "pages/personal/personal",
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "逍遥",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "selectedColor":"#1AAD16",
+    "list":[{
+      "pagePath":"pages/logs/logs",
+      "text": "下载文件"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "上传文件"
+    } ,{
+      "pagePath": "pages/personal/personal",
+      "text": "个人中心",
+      "iconPath":"images/personal.png",
+      "selectedIconPath":"images/l_personal.png"
+    }]
+  }
+}

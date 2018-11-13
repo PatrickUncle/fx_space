@@ -1,0 +1,82 @@
+
+.file-item {
+  height: 200rpx;
+  position: relative;
+  width: 100vw;
+  border-bottom: 5rpx solid #E9E9E9;
+  background: #fff;
+  z-index: 999;
+}
+
+ .file-item movable-area {
+  height: 200rpx;
+  width: calc(100vw - 300rpx);
+}
+
+ .file-item movable-view {
+  height: 200rpx;
+  width: 100vw;
+  background: #fff;
+  z-index: 999;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0; 
+  width: 150rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 40rpx;
+  color: #FFFFFF;
+  line-height: 180rpx;
+  z-index: 1;
+  background: #E66671;
+  text-align: center;
+}
+
+.download {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 150rpx; 
+  width: 150rpx;
+  font-family: PingFangSC-Regular;
+  font-size:40rpx;
+  color: #FFFFFF;
+  line-height: 180rpx;
+  z-index: 1;
+  background: rgb(102, 108, 230);
+  text-align: center;
+}
+
+.Dfile{
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 8rpx 0 20rpx 20rpx;
+  box-sizing: border-box;
+}
+
+.fdisplay{
+  width:140rpx;
+  height:140rpx;
+  border:2px solid #fff;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.20);
+  margin-left:30rpx; 
+  display:inline-block;
+  overflow: hidden;
+}
+
+.information{
+  margin-top:20rpx;
+  margin-left:50rpx; 
+  display:block;
+  font-size:30rpx;
+}
+
+.time{
+  margin-top:15rpx; 
+  margin-left:350rpx; 
+  font-size:20rpx;
+}

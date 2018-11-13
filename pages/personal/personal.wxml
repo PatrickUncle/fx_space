@@ -1,0 +1,23 @@
+<!--personal.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <block >
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+
+  <view class="bind">
+    <view class="{{DisChecked?'click':'normal'}}" bindtap="bind_h_download" style="border-bottom:2px solid #aaa;"> 
+      <image class="histroy" src="../../images/p_hdownload.png" mode="cover"></image>
+      <text > 历史下载 </text>
+      <image class="link" src="../../images/p_link.png" mode="cover"></image>
+    </view>
+
+    <view class="{{UisChecked?'click':'normal'}}" bindtap="bind_h_Upload" > 
+      <image class="histroy" src="../../images/p_hdownload.png" mode="cover"></image>
+      <text class="h_text"> 历史上传 </text>
+      <image class="link" src="../../images/p_link.png" mode="cover"></image>
+    </view>
+  </view>
+</view>

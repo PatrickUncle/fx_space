@@ -1,0 +1,20 @@
+<view class="list">
+  <view class="file-item" wx:for="{{fileList}}"  wx:key="Index" wx:for-item="file" style="border-bottom:2px solid #aaa;">
+    <movable-area>
+      <movable-view direction="horizontal" out-of-bounds="true" inertia="true" 
+          x="{{file.xmove}}" data-fileIndex="{{index}}" bindchange="handleMovableChange">
+        <view class="Dfile">
+            <image class="fdisplay" src="{{file.image}}" mode="cover"></image>
+            <view class ="information">
+              <view class ="Uploader">上传者："{{file.Uploader}}"</view>
+              <view class ="fileclass">分类："{{file.fileclass}}"</view>
+              <view class ="filename">文件名："{{file.filename}}"</view>
+              <view class="time">"{{file.time}}"</view>
+            </view>
+        </view>
+      </movable-view>
+    </movable-area>
+    <view class="delete-btn" data-fileIndex="{{index}}" bindtap="handleDeleteProduct">删除</view>
+    <view class="download" data-fileindex="{{index}}" bindtap="dload">下载</view>
+  </view>
+</view>

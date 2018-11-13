@@ -1,0 +1,60 @@
+/**personal.wxss**/
+.userinfo {
+  position: relative;
+  width:750rpx;
+  height:320rpx;
+  color:#999999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  display:block;
+  width: 160rpx;
+  height: 160rpx;
+  margin: 20rpx;
+  margin-top:50rpx;
+  border-radius: 50%;
+  border:2px solid #fff;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.20);
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.bind {
+  margin-top:80rpx;
+  font-size: 45rpx;
+}
+
+.normal{
+  width: 750rpx;
+  height: 120rpx;
+  align-items: center;
+  display: flex;
+}
+
+.click{
+  width: 750rpx;
+  height:120rpx;
+  background: #999;
+  display: flex;
+  align-items: center;
+}
+
+.histroy{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  margin:0rpx 20rpx 0rpx 20rpx;
+}
+
+.link{
+  width: 80rpx;
+  height: 80rpx;
+  margin-left:300rpx;
+  border-radius: 50%;
+}
